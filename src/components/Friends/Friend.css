@@ -1,0 +1,49 @@
+/* Friend.css */
+.friend-list {
+    margin: 20px 0;
+}
+
+.friend {
+    background: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.friend h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.friend p {
+    color: #666;
+}
+
+.add-friend form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-friend input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-friend button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6200ea;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-friend button:hover {
+    background-color: #3700b3;
+}

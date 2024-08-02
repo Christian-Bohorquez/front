@@ -1,0 +1,17 @@
+/* DrawerMenu.css */
+.drawer-container {
+    width: 250px;
+}
+
+.drawer-container .MuiListItem-root {
+    padding: 10px 20px;
+}
+
+.drawer-container .MuiListItemIcon-root {
+    min-width: 40px;
+}
+
+.drawer-container .MuiListItemText-primary {
+    font-size: 16px;
+    font-weight: 500;
+}
